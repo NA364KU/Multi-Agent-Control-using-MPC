@@ -1,7 +1,9 @@
-# Multi-Agent-Control-using-Nonlinear-MPC
-An early prototype which showcases the use of an efficient nonlinear MPC solver known as PANOC. Here it is used to solve optimization problems in realtime pertaining to the navigation of an autonomous agent. More information about PANOC can be found here: https://arxiv.org/abs/1709.06487
+# Multi-Agent-Control-using-MPC
+An early prototype which showcases the use of an efficient nonlinear MPC solver known as PANOC. Here it is used to solve optimization problems very quickly which allows for real-time applications such as the navigation of an autonomous agent. More information about PANOC can be found here: https://arxiv.org/abs/1709.06487
 
 An easy way to use the solver is via the open source package, Optimization Engine, or OpEn for short. It can be found here: https://alphaville.github.io/optimization-engine/
+
+## What is MPC ?
 
 # How to Use
 Prerequisites:  Python, OpEn, clang, Rust
