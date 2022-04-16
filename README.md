@@ -43,5 +43,10 @@ The autonomous agent is placed near the middle agent deliberately. We can see th
 
 At every timestep, an optimization problem is solved using the MPC solver and optimal control inputs are applied to the autonomous agent. The problem is formulated using shared state information of neaby agents to avoid collision and to move together towards some goal. 
 
+#### Smaller Details
+This was tested on Linux Ubuntu 20.04 LTS using an i7 10th gen mobile processor. 
+
 Each optimization problem takes roughly 1-10 ms to solve, which is very fast. 
+
+
 
