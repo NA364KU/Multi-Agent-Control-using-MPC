@@ -20,12 +20,11 @@ This is where the MPC solver, PANOC, comes into play. It is an efficient solver 
 
 # How to Use
 Prerequisites:  Python, OpEn, clang, Rust
+OS: Linux environment. (Unfortunately there are some package bugs on windows)
 
 An easy way to use the solver is via the open source package, Optimization Engine, or OpEn for short. It can be found here: https://alphaville.github.io/optimization-engine/
 
 Further information about dependant softwares/packages are well documented here: https://alphaville.github.io/optimization-engine/docs/installation
-
-A linux environment is recommended.
 
 Run the main file. The optimizer will be built first which can take up to a few minutes, after which the optimizer can be called in real-time.
 
