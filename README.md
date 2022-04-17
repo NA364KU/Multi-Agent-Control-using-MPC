@@ -19,8 +19,8 @@ This is where the MPC solver, PANOC, comes into play. It is an efficient solver 
 (Source: https://miro.medium.com/max/1000/0*qOIUY20YJ-dhPeVB.png)
 
 # How to Use
-Prerequisites:  Python, OpEn, clang, Rust
-OS: Linux environment. (Unfortunately there are some package bugs on windows)
+**Prerequisites:**  Python, OpEn, clang, Rust
+OS: Linux environment. (Unfortunately there are some package bugs on Windows)
 
 An easy way to use the solver is via the open source package, Optimization Engine, or OpEn for short. It can be found here: https://alphaville.github.io/optimization-engine/
 
