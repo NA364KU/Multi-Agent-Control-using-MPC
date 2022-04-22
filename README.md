@@ -1,6 +1,8 @@
 # Multi-Agent-Control-using-MPC
 An early prototype which showcases the use of an efficient nonlinear MPC solver known as PANOC. Here it is used to solve optimization problems very quickly which allows for real-time applications such as the navigation of an autonomous agent. More information about PANOC can be found here: https://arxiv.org/abs/1709.06487
 
+The results of the final version and more details can be found in our research paper here: https://arxiv.org/abs/2202.11331
+
 ## What is Model Predictive Control (MPC) ?
 
 MPC is an advanced online (realtime) control method where an objective function is solved at every timestep. It uses existing state information as an input, along with known model dynamics to iteratively solve/minimize the function. This is repeated until a certain number of time steps into the future. The length of the prediction is known as the prediction horizon. 
