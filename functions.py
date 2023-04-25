@@ -81,7 +81,8 @@ def dynamics_dt(x, u): #X: set of other agents
     return x_higher
 
 def stage_cost(x,u_t,sig_t): #set of all other agents:  x = current state , sig_t= index of dummy states, used to compute sig values
-
+    
+    # cost function
     cost = gamma*((1-w)*(((x[0] + x[2] * sampling_time + 0.5 * u_t[0] * sampling_time ** 2) - x[sig_t]) ** 2 +
                          ((x[1] + x[3] * sampling_time + 0.5 * u_t[1] * sampling_time ** 2) - x[sig_t + 1]) ** 2) +
                       w*(((x[2] + u_t[0] * sampling_time) - x[sig_t + 2]) ** 2 +
